@@ -21,7 +21,7 @@ public class Main {
         List<String> fruits = new ArrayList<>();
         fruits.add("Apricot");
         fruits.add("Orange");
-        fruits.add("Orange");
+        fruits.add("Apple");
         fruits.add("Nectarine");
         fruits.add("Watermelon");
 
