@@ -1,7 +1,7 @@
 package main.java.com.hw6.collections;
 
 public class Executor {
-    protected static void implementationCollections() {
+    protected static void implementCollections() {
         DivisibleRemoving divisibleRemoving = new DivisibleRemoving();
         divisibleRemoving.removeDivisibleNumbers(divisibleRemoving.createList());
 
