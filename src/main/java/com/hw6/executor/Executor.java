@@ -1,9 +1,15 @@
-package main.java.com.hw6.collections;
+package main.java.com.hw6.executor;
+
+import main.java.com.hw6.collections.DataComparison;
+import main.java.com.hw6.collections.DescendingSet;
+import main.java.com.hw6.collections.DivisibleRemoving;
+import main.java.com.hw6.collections.ValueReplacing;
+
 
 public class Executor {
-    protected static void implementCollections() {
+    public static void implementCollections() {
         DivisibleRemoving divisibleRemoving = new DivisibleRemoving();
-        divisibleRemoving.removeDivisibleNumbers(divisibleRemoving.createList());
+        divisibleRemoving.removeDivisibleNumbers(divisibleRemoving.createList(), 3);
 
         ValueReplacing orangeReplacing = new ValueReplacing();
         orangeReplacing.replaceValue(orangeReplacing.createList());

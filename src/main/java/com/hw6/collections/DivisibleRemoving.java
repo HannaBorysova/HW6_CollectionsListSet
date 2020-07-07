@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DivisibleRemoving {
-    List<Integer> createList() {
+    public List<Integer> createList() {
         List<Integer> list = new ArrayList<>();
 
         list.add(3);
@@ -16,8 +16,8 @@ public class DivisibleRemoving {
         return list;
     }
 
-    public void removeDivisibleNumbers(List<Integer> list) {
-        list.removeIf(i -> i % 3 == 0);
+    public void removeDivisibleNumbers(List<Integer> list, int divisibleNumber) {
+        list.removeIf(i -> i % divisibleNumber == 0);
         System.out.println("Whithout numbers divisible by 3: " + list);
     }
 }

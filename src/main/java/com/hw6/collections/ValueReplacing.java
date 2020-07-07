@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ValueReplacing {
-    List<String> createList() {
+    public List<String> createList() {
         List<String> fruits = new ArrayList<>();
         fruits.add("Apricot");
         fruits.add("Orange");

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DataComparison {
-    List<Integer> createFirstList() {
+    public List<Integer> createFirstList() {
         List<Integer> first = new ArrayList<>();
         first.add(1);
         first.add(5);
@@ -12,7 +12,7 @@ public class DataComparison {
         return first;
     }
 
-    List<Integer> createSecondList() {
+    public List<Integer> createSecondList() {
         List<Integer> second = new ArrayList<>();
         second.add(7);
         second.add(8);

@@ -1,11 +1,11 @@
 package main.java.com.hw6;
 
 
-import main.java.com.hw6.collections.Executor;
+import main.java.com.hw6.executor.Executor;
 
-public class Main extends Executor {
+public class Main {
 
     public static void main(String[] args) {
-        implementCollections();
+        Executor.implementCollections();
     }
 }
