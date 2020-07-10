@@ -5,6 +5,8 @@ import main.java.com.hw6.collections.DescendingSet;
 import main.java.com.hw6.collections.DivisibleRemoving;
 import main.java.com.hw6.collections.ValueReplacing;
 
+import java.util.Set;
+
 
 public class Executor {
     public static void implementCollections() {
@@ -17,7 +19,7 @@ public class Executor {
         DataComparison dataComparison = new DataComparison();
         dataComparison.checkSimilarElements(dataComparison.createFirstList(), dataComparison.createSecondList());
 
-        DescendingSet descendingSet = new DescendingSet();
-        descendingSet.sortElementsByDescend(descendingSet.createSet());
+        Set<Integer> descendingSet = DescendingSet.createSet();
+        System.out.println("descendingSet = " + descendingSet);;
     }
 }
